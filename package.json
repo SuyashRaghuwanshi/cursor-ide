@@ -1,0 +1,27 @@
+{
+  "name": "cursor-ide",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/SuyashRaghuwanshi/cursor-ide#readme",
+  "bugs": {
+    "url": "https://github.com/SuyashRaghuwanshi/cursor-ide/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuyashRaghuwanshi/cursor-ide.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.2.3",
+    "node-fetch": "^3.3.2",
+    "openai": "^6.7.0"
+  }
+}
